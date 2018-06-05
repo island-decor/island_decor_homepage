@@ -1,0 +1,23 @@
+{% load static %}
+<section class="success" id="about">
+    <div class="container">
+        <h2 class="text-center">About us</h2>
+        <div id="about-text-section">
+            <!--<p id="mission-section"></p> < - in-case everything goes wrong -->
+            <p id="about-text">
+                We sell unique items that are nautical and tropical.
+                From wall decor and hostess gifts to
+                Floridian greeting cards.
+                We help you make your house a home.
+            </p>
+
+        </div>
+
+        <!--a bit of space--><br><!--between the text and the btns h-->
+
+            <div>
+                {% include 'home/modals/mission-statement.html' %}
+                {% include 'home/modals/our-history.html' %}
+            </div>
+    </div>
+</section>

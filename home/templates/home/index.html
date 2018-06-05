@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head profile="http://www.w3.org/2005/10/profile">
+
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+
+		<title>Island Decor</title>
+
+        <!-- Custom fonts for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+        <!-- font-awesome | This gives us the social media icons-->
+        <link rel="stylesheet" href="{% static 'home/css/font-awesome/css/font-awesome.min.css' %}">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="{% static 'home/css/main.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'home/css/bootstrap-msg.min.css' %}">
+        <link rel="icon" type="image/png" href="{% static 'home/images/pink-coconut-tree.png' %}"><!--Favicon-->
+        <!-- Bootstrap CSS -->
+{#        <link rel="stylesheet" href="{% static 'home/css/bootstrap/css/bootstrap.min.css' %}">#}
+    </head>
+	<body id="page-top">
+
+        <!-- Navigation -->
+        {% include 'home/navigation.html' %}
+        <!-- Site Title Section -->
+        {% include 'home/title.html' %}
+        <!-- About Section -->
+        {% include 'home/about.html' %}
+        <!-- Shopping coming soon -->
+        {% include 'home/placeholder-sections/coming-soon.html' %}
+        <!-- Contact Section -->
+        {% include 'home/contact.html'%}
+        <!-- Footer -->
+        {% include 'home/footer.html' %}
+        <!-- Modals -->
+
+
+
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top d-lg-none">
+	<a class="btn btn-primary js-scroll-trigger" href="#page-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
+</div>
+
+<!-- Scripts -->
+<script src="{% static 'home/js/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'home/js/popper/popper.min.js' %}"></script>
+<script src="{% static 'home/css/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'home/js/bootstrap-msg.min.js' %}"></script>
+
+<!-- Plugin JavaScript -->
+<script src="{% static 'home/js/jquery-easing/jquery.easing.min.js' %}"></script>
+
+<!--Custom JS-->
+<script src="{% static 'home/js/jqBootstrapValidation.js' %}"></script>
+<script src="{% static 'home/js/custom.js' %}"></script>
+</body>
